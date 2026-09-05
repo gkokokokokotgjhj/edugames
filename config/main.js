@@ -1,6 +1,6 @@
 // This changes the title of your site
 
-var sitename = "Edugames"; // Change this to change the name of your website.
+var sitename = "native."; // Change this to change the name of your website.
 var subtext = "v1.2"; // set the subtext
 
 // more settings in main.css
@@ -12,7 +12,7 @@ var subtext = "v1.2"; // set the subtext
 
 import "/./config/custom.js";
 
-var serverUrl1 = "https://parcoil-assets.onrender.com";
+var serverUrl1 = "https://gms.parcoil.com";
 var currentPageTitle = document.title;
 document.title = `${currentPageTitle} | ${sitename}`;
 let gamesData = []; 
@@ -69,4 +69,3 @@ document
 document.getElementById("title").innerHTML = `${sitename}`;
 
 document.getElementById("subtitle").innerHTML = `${subtext}`
-
